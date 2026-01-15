@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Szkolenie Phishing</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; background: #f0f8ff; }
+        h1 { color: #d32f2f; text-align: center; }
+        .lekcja { background: white; padding: 20px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); margin: 20px 0; }
+        .video-btn {
+            display: block;
+            margin: 0 auto;
+            padding: 15px 40px;
+            font-size: 18px;
+            font-weight: bold;
+            color: white;
+            background: #d32f2f;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+        .video-btn:hover {
+            background: #b71c1c;
+        }
+        .footer {
+            text-align: center;
+            color: #666;
+            font-size: 14px;
+            margin-top: 40px;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+    <h1>🛑 To była symulacja ataku phishingowego!</h1>
+    
+  <div class="lekcja" style="line-height: 1.5;">
+        <p><strong>Dlaczego to phishing?</strong></p>
+        <ul>   
+        <li>Nietypowy nadawca/nazwa wyświetlana.</li>
+        <li>Presja czasu ("pilne").</li>
+        <li>Prośba o kliknięcie w link zamiast bezpośredniego logowania.</li>
+        <li>Domena Bitly zamiast oficjalnej domeny firmy.</li>
+        </ul> 
+
+        <p><strong>Checklista na przyszłość:</strong></p>
+        <ul>
+            <li>Sprawdź pełny adres nadawcy (hover).</li>
+            <li>Weryfikuj drugim kanałem (telefon/Slack).</li>
+            <li>Nie podawaj danych z maila – idź na stronę ręcznie.</li>
+            <li>Zgłaszaj podejrzenia do IT!</li>
+        </ul>
+    </div>
+    
+    <div class="szkolenie">
+        <h2 style="text-align: center;">Szkolenie</h2>
+        <button class="video-btn" onclick="window.open('https://www.youtube.com/watch?v=TCd9FHvQC3s', '_blank')">
+            📺 Obejrzyj filmik o phishingu
+        </button>
+    </div>
+    
+    <div class="footer">
+        <strong>To był test wewnętrzny firmy.</strong><br>
+        Dziękujemy za udział w podnoszeniu poziomu bezpieczeństwa! 🔒
+    </div>
+</body>
+</html>
